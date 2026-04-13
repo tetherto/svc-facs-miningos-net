@@ -7,13 +7,21 @@
   ],
   "author": "Tether",
   "license": "Apache-2.0",
-  "engine": {
-    "node": ">=20.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tetherto/svc-facs-miningos-net.git"
   },
+  "homepage": "https://github.com/tetherto/svc-facs-miningos-net#readme",
+  "bugs": {
+    "url": "https://github.com/tetherto/svc-facs-miningos-net/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "index.js"
+  ],
+  "type": "commonjs",  
   "main": "index.js",
   "scripts": {
     "lint": "standard",
